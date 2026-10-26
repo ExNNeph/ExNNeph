@@ -1,0 +1,44 @@
+name: profile
+
+on:
+  schedule:
+    - cron: "0 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Commit identity
+        run: |
+          git config --global user.name "Alexander Kramer"
+          git config --global user.email "82775988+ExNNeph@users.noreply.github.com"
+
+      - name: Recent activity
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python .github/activity.py
+          git add README.md
+          git diff --cached --quiet || (git commit -m "Update recent activity" && git push)
+
+      - name: Contribution snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake.svg
+            dist/snake-dark.svg?palette=github-dark
+
+      - name: Push snake to the output branch
+        run: |
+          cd dist
+          git init -q -b output
+          git add .
+          git commit -q -m "Update contribution snake"
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}" output

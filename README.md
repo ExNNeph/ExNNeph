@@ -7,21 +7,40 @@ guardrails that check the model's output before anyone sees it, tests, CI and a 
 - 📍 Frankfurt, Hesse, Germany
 - 🔍 Open to **AI Engineer** roles
 
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![Claude API](https://img.shields.io/badge/Claude_API-D97757?logo=anthropic&logoColor=white)
-![Pydantic](https://img.shields.io/badge/Pydantic-E92063?logo=pydantic&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
-![pytest](https://img.shields.io/badge/pytest-0A9EDC?logo=pytest&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white)
-![RAG](https://img.shields.io/badge/RAG-5A45FF)
-![OpenAI API](https://img.shields.io/badge/OpenAI_API-412991)
-![Gemini API](https://img.shields.io/badge/Gemini_API-8E75B2?logo=googlegemini&logoColor=white)
-![Slack Apps](https://img.shields.io/badge/Slack_Apps-4A154B)
-![n8n](https://img.shields.io/badge/n8n-EA4B71?logo=n8n&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC)
-![Obsidian](https://img.shields.io/badge/Obsidian-7C3AED?logo=obsidian&logoColor=white)
-![VPS](https://img.shields.io/badge/VPS-333333)
-![Hostinger](https://img.shields.io/badge/Hostinger-673DE6?logo=hostinger&logoColor=white)
+### Skills
+
+<table>
+  <tr>
+    <th>Built with (in my public repos)</th>
+    <th>Also worked with</th>
+    <th>Learning now</th>
+  </tr>
+  <tr>
+    <td valign="top">
+      <img src="https://skillicons.dev/icons?i=py,githubactions,git,github" /><br>
+      <img src="https://img.shields.io/badge/Claude_API-D97757?style=for-the-badge&logo=anthropic&logoColor=white" />
+      <img src="https://img.shields.io/badge/RAG_(BM25)-5A45FF?style=for-the-badge" />
+      <img src="https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white" />
+      <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
+      <img src="https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" />
+    </td>
+    <td valign="top">
+      <img src="https://skillicons.dev/icons?i=vscode,obsidian,linux" /><br>
+      <img src="https://img.shields.io/badge/OpenAI_API-412991?style=for-the-badge" />
+      <img src="https://img.shields.io/badge/Gemini_API-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" />
+      <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" />
+      <img src="https://img.shields.io/badge/Slack_Apps-4A154B?style=for-the-badge" />
+      <img src="https://img.shields.io/badge/VPS_·_Hostinger-673DE6?style=for-the-badge&logo=hostinger&logoColor=white" />
+    </td>
+    <td valign="top">
+      <img src="https://skillicons.dev/icons?i=pytorch,fastapi,sqlite" /><br>
+      <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
+      <img src="https://img.shields.io/badge/LoRA_·_MLX-111111?style=for-the-badge" />
+      <img src="https://img.shields.io/badge/Vector_search-00897B?style=for-the-badge" />
+      <img src="https://img.shields.io/badge/Agents-6E40C9?style=for-the-badge" />
+    </td>
+  </tr>
+</table>
 
 ### Projects
 
@@ -35,6 +54,25 @@ guardrails that check the model's output before anyone sees it, tests, CI and a 
 
 Each README has screenshots, a step-by-step guide to run it locally, the eval results and their limits.
 
+### Currently building
+
+- [ ] **Text-to-SQL with guardrails**: destructive or unsafe queries are blocked before they run
+- [ ] **Hybrid RAG with citations**: BM25 + embeddings, reranking, every claim checked against its source, plus a semantic cache
+- [ ] **Agent system**: tools, memory and a human-in-the-loop checkpoint for risky actions
+- [ ] **LoRA fine-tuning**: a small local model trained on my eval data, benchmarked against the base model and Claude
+
+### Recent activity
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+
+### Contributions
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ExNNeph/ExNNeph/output/snake-dark.svg" />
+  <img alt="Contribution snake" src="https://raw.githubusercontent.com/ExNNeph/ExNNeph/output/snake.svg" />
+</picture>
+
 ### Contact
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alexander-kramer-0b242320b)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alexander-kramer-0b242320b)
