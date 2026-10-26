@@ -13,6 +13,15 @@ guardrails that check the model's output before anyone sees it, tests, CI and a 
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
 ![pytest](https://img.shields.io/badge/pytest-0A9EDC?logo=pytest&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG-5A45FF)
+![OpenAI API](https://img.shields.io/badge/OpenAI_API-412991)
+![Gemini API](https://img.shields.io/badge/Gemini_API-8E75B2?logo=googlegemini&logoColor=white)
+![Slack Apps](https://img.shields.io/badge/Slack_Apps-4A154B)
+![n8n](https://img.shields.io/badge/n8n-EA4B71?logo=n8n&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC)
+![Obsidian](https://img.shields.io/badge/Obsidian-7C3AED?logo=obsidian&logoColor=white)
+![VPS](https://img.shields.io/badge/VPS-333333)
+![Hostinger](https://img.shields.io/badge/Hostinger-673DE6?logo=hostinger&logoColor=white)
 
 ### Projects
 
