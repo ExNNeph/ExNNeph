@@ -46,6 +46,7 @@ guardrails that check the model's output before anyone sees it, tests, CI and a 
 
 | Project | What it does | Technique | Measured result |
 |---|---|---|---|
+| [text-to-sql](https://github.com/ExNNeph/text-to-sql) | Plain-English questions to SQL on a shop database; only one read-only SELECT may run | structured outputs, sqlglot guardrails, read-only sandbox, confidence gate | 29/30 correct, 0 false blocks, 20/20 attacks harmless |
 | [review-replier](https://github.com/ExNNeph/review-replier) | Replies to Google reviews in a business's own voice; serious cases go to a human | few-shot, calibrated LLM judge, escalation | voice score 3.9 → 4.8, escalation recall 100% |
 | [listing-writer](https://github.com/ExNNeph/listing-writer) | Photo in, marketplace listing out (Vinted, eBay, Etsy; DE/EN) | vision, grounding guardrail | 0 invented brands in 36 listings |
 | [contract-red-flags](https://github.com/ExNNeph/contract-red-flags) | Flags contract clauses worth asking about before you sign (DE/EN) | retrieval (BM25) over a risk knowledge base | 0 of 27 fair clauses wrongly flagged |
@@ -56,7 +57,7 @@ Each README has screenshots, a step-by-step guide to run it locally, the eval re
 
 ### Currently building
 
-- [ ] **Text-to-SQL with guardrails**: destructive or unsafe queries are blocked before they run
+- [x] **[Text-to-SQL with guardrails](https://github.com/ExNNeph/text-to-sql)**: destructive or unsafe queries are blocked before they run
 - [ ] **Hybrid RAG with citations**: BM25 + embeddings, reranking, every claim checked against its source, plus a semantic cache
 - [ ] **Agent system**: tools, memory and a human-in-the-loop checkpoint for risky actions
 - [ ] **LoRA fine-tuning**: a small local model trained on my eval data, benchmarked against the base model and Claude
