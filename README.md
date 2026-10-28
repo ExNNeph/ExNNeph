@@ -66,11 +66,11 @@ Each README has screenshots, a step-by-step guide to run it locally, the eval re
 ### Recent activity
 
 <!--START_SECTION:activity-->
+- 🎉 Published [hybrid-rag](https://github.com/ExNNeph/hybrid-rag) · 2026-10-27
+- 🎉 Published [text-to-sql](https://github.com/ExNNeph/text-to-sql) · 2026-10-27
 - 🎉 Published [review-replier](https://github.com/ExNNeph/review-replier) · 2026-10-26
 - 🎉 Published [listing-writer](https://github.com/ExNNeph/listing-writer) · 2026-10-25
 - 🎉 Published [contract-red-flags](https://github.com/ExNNeph/contract-red-flags) · 2026-10-25
-- 🎉 Published [meeting-tasks](https://github.com/ExNNeph/meeting-tasks) · 2026-10-25
-- ⬆️ Pushed to [invoice-chaser](https://github.com/ExNNeph/invoice-chaser) · 2026-10-25
 <!--END_SECTION:activity-->
 
 ### Contributions
