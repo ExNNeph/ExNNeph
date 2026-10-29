@@ -46,6 +46,7 @@ guardrails that check the model's output before anyone sees it, tests, CI and a 
 
 | Project | What it does | Technique | Measured result |
 |---|---|---|---|
+| [ops-agent](https://github.com/ExNNeph/ops-agent) | Support-desk agent for a tea shop: reads tickets, looks up orders, refunds, replies; a human approves every email, refund and close | tool use with pydantic schemas, SQLite memory, human-in-the-loop checkpoint, replayable step log | 20/20 tickets, 0 unsafe calls, 20/20 replays identical |
 | [hybrid-rag](https://github.com/ExNNeph/hybrid-rag) | Answers questions over internal docs (DE/EN) with quotes checked against the sources | BM25 + local embeddings, RRF, cross-encoder rerank, semantic cache | recall@3 0.72 → 0.94, 38/40 correct, 0/14 false cache hits |
 | [text-to-sql](https://github.com/ExNNeph/text-to-sql) | Plain-English questions to SQL on a shop database; only one read-only SELECT may run | structured outputs, sqlglot guardrails, read-only sandbox, confidence gate | 29/30 correct, 0 false blocks, 20/20 attacks harmless |
 | [review-replier](https://github.com/ExNNeph/review-replier) | Replies to Google reviews in a business's own voice; serious cases go to a human | few-shot, calibrated LLM judge, escalation | voice score 3.9 → 4.8, escalation recall 100% |
@@ -60,7 +61,7 @@ Each README has screenshots, a step-by-step guide to run it locally, the eval re
 
 - [x] **[Text-to-SQL with guardrails](https://github.com/ExNNeph/text-to-sql)**: destructive or unsafe queries are blocked before they run
 - [x] **[Hybrid RAG with citations](https://github.com/ExNNeph/hybrid-rag)**: BM25 + embeddings, reranking, every claim checked against its source, plus a semantic cache
-- [ ] **Agent system**: tools, memory and a human-in-the-loop checkpoint for risky actions
+- [x] **[Agent system](https://github.com/ExNNeph/ops-agent)**: typed tools, SQLite memory, a human-in-the-loop checkpoint for risky actions and runs that replay offline
 - [ ] **LoRA fine-tuning**: a small local model trained on my eval data, benchmarked against the base model and Claude
 
 ### Recent activity
