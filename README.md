@@ -58,6 +58,12 @@ guardrails that check the model's output before anyone sees it, tests, CI and a 
 
 Each README has screenshots, a step-by-step guide to run it locally, the eval results and their limits.
 
+### Learning resources
+
+| Project | What it is | Format | Status |
+|---|---|---|---|
+| [python-learning-path](https://github.com/ExNNeph/python-learning-path) | A free Python course from beginner to professional, not an AI project: lessons that explain how Python works, with exercises anyone can check | Markdown lessons with diagrams, pytest-tested exercises, commented solutions that CI checks on Linux, macOS and Windows | Beginner level done: 13 lessons, 17 exercises, 1 capstone; Intermediate, Advanced and Professional coming |
+
 ### Currently building
 
 - [x] **[Text-to-SQL with guardrails](https://github.com/ExNNeph/text-to-sql)**: destructive or unsafe queries are blocked before they run
