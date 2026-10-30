@@ -17,9 +17,12 @@ guardrails that check the model's output before anyone sees it, tests, CI and a 
   </tr>
   <tr>
     <td valign="top">
-      <img src="https://skillicons.dev/icons?i=py,githubactions,git,github" /><br>
+      <img src="https://skillicons.dev/icons?i=py,sqlite,githubactions,git,github" /><br>
       <img src="https://img.shields.io/badge/Claude_API-D97757?style=for-the-badge&logo=anthropic&logoColor=white" />
-      <img src="https://img.shields.io/badge/RAG_(BM25)-5A45FF?style=for-the-badge" />
+      <img src="https://img.shields.io/badge/RAG_(BM25_+_embeddings)-5A45FF?style=for-the-badge" />
+      <img src="https://img.shields.io/badge/Agents_·_tool_use-6E40C9?style=for-the-badge" />
+      <img src="https://img.shields.io/badge/LoRA_·_MLX-111111?style=for-the-badge" />
+      <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
       <img src="https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white" />
       <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
       <img src="https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" />
@@ -33,11 +36,7 @@ guardrails that check the model's output before anyone sees it, tests, CI and a 
       <img src="https://img.shields.io/badge/VPS_·_Hostinger-673DE6?style=for-the-badge&logo=hostinger&logoColor=white" />
     </td>
     <td valign="top">
-      <img src="https://skillicons.dev/icons?i=pytorch,fastapi,sqlite" /><br>
-      <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
-      <img src="https://img.shields.io/badge/LoRA_·_MLX-111111?style=for-the-badge" />
-      <img src="https://img.shields.io/badge/Vector_search-00897B?style=for-the-badge" />
-      <img src="https://img.shields.io/badge/Agents-6E40C9?style=for-the-badge" />
+      <img src="https://skillicons.dev/icons?i=pytorch,fastapi" />
     </td>
   </tr>
 </table>
@@ -70,6 +69,7 @@ Each README has screenshots, a step-by-step guide to run it locally, the eval re
 - [x] **[Hybrid RAG with citations](https://github.com/ExNNeph/hybrid-rag)**: BM25 + embeddings, reranking, every claim checked against its source, plus a semantic cache
 - [x] **[Agent system](https://github.com/ExNNeph/ops-agent)**: typed tools, SQLite memory, a human-in-the-loop checkpoint for risky actions and runs that replay offline
 - [x] **[LoRA fine-tuning](https://github.com/ExNNeph/lora-clauses)**: a small local model trained on my eval data, benchmarked against the base model and Claude
+- [ ] **[Python learning path](https://github.com/ExNNeph/python-learning-path)**: Beginner level done; Intermediate, Advanced and Professional next
 
 ### Recent activity
 
