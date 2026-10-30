@@ -74,11 +74,11 @@ Each README has screenshots, a step-by-step guide to run it locally, the eval re
 ### Recent activity
 
 <!--START_SECTION:activity-->
+- 🎉 Published [python-learning-path](https://github.com/ExNNeph/python-learning-path) · 2026-10-30
+- 🎉 Published [lora-clauses](https://github.com/ExNNeph/lora-clauses) · 2026-10-30
 - 🎉 Published [ops-agent](https://github.com/ExNNeph/ops-agent) · 2026-10-29
 - 🎉 Published [hybrid-rag](https://github.com/ExNNeph/hybrid-rag) · 2026-10-27
 - 🎉 Published [text-to-sql](https://github.com/ExNNeph/text-to-sql) · 2026-10-27
-- 🎉 Published [review-replier](https://github.com/ExNNeph/review-replier) · 2026-10-26
-- 🎉 Published [listing-writer](https://github.com/ExNNeph/listing-writer) · 2026-10-25
 <!--END_SECTION:activity-->
 
 ### Contributions
