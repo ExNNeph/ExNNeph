@@ -61,7 +61,7 @@ Each README has screenshots, a step-by-step guide to run it locally, the eval re
 
 | Project | What it is | Format | Status |
 |---|---|---|---|
-| [python-learning-path](https://github.com/ExNNeph/python-learning-path) | A free Python course from beginner to professional, not an AI project: lessons that explain how Python works, with exercises anyone can check | Markdown lessons with diagrams, pytest-tested exercises, commented solutions that CI checks on Linux, macOS and Windows | Beginner level done: 13 lessons, 17 exercises, 1 capstone; Intermediate, Advanced and Professional coming |
+| [python-learning-path](https://github.com/ExNNeph/python-learning-path) | A free Python course from beginner to professional, not an AI project: lessons that explain how Python works, with exercises anyone can check | Markdown lessons with diagrams, pytest-tested exercises, commented solutions that CI checks on Linux, macOS and Windows | Beginner and Intermediate levels done: 26 lessons, 31 exercises, 2 capstones; Advanced and Professional coming |
 
 ### Currently building
 
@@ -69,7 +69,7 @@ Each README has screenshots, a step-by-step guide to run it locally, the eval re
 - [x] **[Hybrid RAG with citations](https://github.com/ExNNeph/hybrid-rag)**: BM25 + embeddings, reranking, every claim checked against its source, plus a semantic cache
 - [x] **[Agent system](https://github.com/ExNNeph/ops-agent)**: typed tools, SQLite memory, a human-in-the-loop checkpoint for risky actions and runs that replay offline
 - [x] **[LoRA fine-tuning](https://github.com/ExNNeph/lora-clauses)**: a small local model trained on my eval data, benchmarked against the base model and Claude
-- [ ] **[Python learning path](https://github.com/ExNNeph/python-learning-path)**: Beginner level done; Intermediate, Advanced and Professional next
+- [ ] **[Python learning path](https://github.com/ExNNeph/python-learning-path)**: Beginner and Intermediate levels done; Advanced and Professional next
 
 ### Recent activity
 
