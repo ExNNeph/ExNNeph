@@ -78,7 +78,6 @@ Each README has screenshots, a step-by-step guide to run it locally, the eval re
 - 🎉 Published [python-learning-path](https://github.com/ExNNeph/python-learning-path) · 2026-10-30
 - 🎉 Published [lora-clauses](https://github.com/ExNNeph/lora-clauses) · 2026-10-30
 - 🎉 Published [ops-agent](https://github.com/ExNNeph/ops-agent) · 2026-10-29
-- 🎉 Published [hybrid-rag](https://github.com/ExNNeph/hybrid-rag) · 2026-10-27
 <!--END_SECTION:activity-->
 
 ### Contributions
